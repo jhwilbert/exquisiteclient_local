@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MyObject; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {myWin = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyWebView; LANGUAGE = ObjC; SUPERCLASS = WebView; }
+    ); 
+    IBVersion = 1; 
+}

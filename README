@@ -1,0 +1,13 @@
+EXQUISITE CLOCK LOCAL BASIC CLIENT
+
+[ SETUP ]
+
+# 1 Install a webserver (apache2, on MAMP or similar)
+# 2 Change the requestURL on the file /javascript/scripts.js to your localhost 
+# 3 Check if can access and see the JSON file with the nubmers
+# Open index.html through your webserver and the clock should be there
+# 5 Open feeds/feed.json and add numbers inside the JSON array
+# 6 Using CSS on main.css, change the number positions, w h
+
+[ OPENING THE APP ]
+

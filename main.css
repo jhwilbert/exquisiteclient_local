@@ -1,0 +1,55 @@
+html, body {
+	color: white;
+    overflow: hidden;
+	background: white;
+    margin: 0px 0px;
+    padding: 0px;
+
+}
+
+img.number {
+	border: 0px;
+	
+	/* If screens are rotated (the images must be rotated as well)*/
+	height:640px;
+	width:480px;
+	
+	/*height:480px;
+	width:640px;*/
+}
+
+#feeds  {
+    float:left;
+    /*position: absolute;*/
+    display:none;	
+}
+
+.number_r {	
+  -webkit-transform: rotate(180deg); 
+  -moz-transform: rotate(180deg);
+  rotation: 180deg;
+}
+
+/*#hours1 {
+   -webkit-transform: translateY(80px) translateX(-80px)  rotate(90deg);   
+}
+#hours2 {
+   -webkit-transform: translateY(80px) translateX(-240px)rotate(90deg);   
+}
+
+#minutes1 {
+   -webkit-transform: translateY(80px) translateX(-400px) rotate(90deg);   
+}
+
+#minutes2 {
+   -webkit-transform: translateY(80px) translateX(-560px) rotate(90deg);   
+}
+
+#seconds1 {
+    -webkit-transform: translateY(-240px) translateX(600px) rotate(90deg);   
+}
+
+#seconds2 {
+
+   -webkit-transform: translateY(-240px) translateX(240px) rotate(90deg);   
+}*/
