@@ -7,7 +7,7 @@ var timer;
 function ClockAPI(){};
 ClockAPI.Numbers = function Numbers(){};
 ClockAPI.Numbers.getNumbers = function(callback){
-	requestURL = "http://localhost:8888/exquisiteclock/exquisite_client_local_v1/feeds/feed.json?time="+Math.random();
+	requestURL = "http://localhost:8888/exquisiteclient_local/feeds/feed.json?time="+Math.random();
 	$.getJSON(requestURL, callback);
 }
 
